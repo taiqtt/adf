@@ -1,0 +1,9 @@
+{
+	"name": "tai-adf-poc",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ac75d63d-c887-43a1-b0d7-66eb1cbd083c",
+		"tenantId": "07c86043-9d9c-4573-bfa1-5aa587c62510"
+	}
+}

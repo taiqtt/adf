@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_zjh",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "emp"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
