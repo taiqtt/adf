@@ -1,0 +1,26 @@
+{
+	"name": "runTaiSimplePipeline",
+	"properties": {
+		"description": "test trigger pipeline",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "taiSimplePipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2023-02-12T21:53:00Z",
+				"endTime": "2023-02-13T21:53:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
