@@ -1,5 +1,5 @@
 {
-	"name": "DestinationDataset_zjh",
+	"name": "emp_stage",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
